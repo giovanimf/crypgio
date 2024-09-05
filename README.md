@@ -1,30 +1,22 @@
-# React + TypeScript + Vite
+# CrypGio 🌐💻
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**CrypGio** é um projeto inovador desenvolvido para aprimorar habilidades no uso de **APIs**, explorando o mundo das criptomoedas de maneira dinâmica e interativa. Criado com **React**, o projeto utiliza recursos como **React Router DOM**, **useParams** e **Styled Components** para fornecer uma experiência de navegação elegante e eficiente.
 
-Currently, two official plugins are available:
+## 🌟 Funcionalidades
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Integração com APIs**: Acesso a dados em tempo real sobre as principais criptomoedas diretamente de APIs atualizadas.
+- **Navegação Dinâmica**: Implementação de rotas com **React Router DOM** para uma experiência de usuário fluida.
+- **Componentização Elegante**: Utilização de **Styled Components** para um design modular e escalável.
+- **Exploração Personalizada**: Uso de parâmetros de rota com **useParams** para navegação personalizada através de dados específicos.
 
-## Expanding the ESLint configuration
+## 🚀 Tecnologias Utilizadas
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **React**: Biblioteca JavaScript para construção de interfaces modernas.
+- **React Router DOM**: Gerenciamento de rotas para navegação eficiente.
+- **Styled Components**: Solução avançada para estilização de componentes React.
+- **APIs**: Integração de dados ao vivo das principais criptomoedas.
 
-- Configure the top-level `parserOptions` property like this:
+## 💡 Objetivo
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+O CrypGio é um projeto criado para explorar a implementação de APIs e melhorar os conceitos de **React** em rotas, destacando as melhores práticas no uso de parâmetros de rota e estilização modular.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
