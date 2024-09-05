@@ -20,3 +20,5 @@
 
 O CrypGio é um projeto criado para explorar a implementação de APIs e melhorar os conceitos de **React** em rotas, destacando as melhores práticas no uso de parâmetros de rota e estilização modular.
 
+## Imagem
+![AnimeDash Screenshot](./image.png)
